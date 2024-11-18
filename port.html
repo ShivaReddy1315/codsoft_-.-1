@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="port.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+      </style>
+      <script src="https://kit.fontawesome.com/cc3843841d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="web.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Shiva Reddy</span> </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.jpeg" alt="#">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello there! I'm Shiva Reddy, a passionate and creative individual on a journey through the captivating realms of technology and creativity. Currently pursuing my B.Tech in Computer Science and Engineering with a focus on AI and Machine Learning at Veltech University, I am deeply immersed in the world of innovation and problem-solving.</p> <br>
+                        <p class="sentence-gap"> In a rapidly evolving tech landscape, I believe adaptability is key. I am committed to staying up-to-date with the latest industry trends and emerging technologies, ensuring that my skill set remains relevant and future-oriented. </p>
+                        <br><p class="sentence-gap">Thank you for visiting my portfolio, and I look forward to connecting with you!</p>
+                          
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Desining and developing websites
+                        </li>
+                            <li><span>Python Development </span><br>Developing many projects related to python
+                        </li>
+                            <li><span>Professional Photographer</span><br>Capture High Quality photos and videos
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024- Current</span><br>Web Development intern at Code Soft</li>
+                            
+                           
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>I am currently pursuing my Bachelor's degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at Vel Tech University </li>
+                            <li><span>2021</span><br>Sri Chaitanya College</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Welcome to my professional web designing services! As a dedicated and creative web designer, I specialize in crafting visually stunning and user-friendly websites that leave a lasting impression. With a keen eye for aesthetics and a passion for delivering seamless user experiences, I'm here to turn your ideas into captivating digital realities.
+
+                        </p>
+                        <a href="#">Learn More</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Development</h2>
+                    <p>Welcome to my Python Development services, where innovation meets functionality. I specialize in crafting cutting-edge solutions that leverage the power of the Python programming language. With a focus on AI-driven smart voice assistants, seamless API integrations, and expert smart assistant development, I bring your ideas to life in the digital realm.
+
+                        </p>
+                        <a href="#">Learn More</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Professional Photographer</h2>
+                    <p> Welcome to my world of professional photography, where each image is a story waiting to be told. As an experienced Photographer, I specialize in capturing moments that evoke emotion and bring visions to life. From stunning portraits to breathtaking landscapes, I create images that resonate and inspire. Whether it's for personal memories or brand storytelling, I'm here to turn your moments into lasting visual art.
+
+                        </p>
+                        <a href="#">Learn More</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="p1.jpg">
+                    <div class="layer">
+                        <h3>Online Food Delivery </h3>
+                        <p>
+                            Online food delivery is a service that allows customers to order food from restaurants or food vendors through a website or mobile app. The food is then delivered to the customer's location.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="VAA.jpg">
+                    <div class="layer">
+                        <h3>Virtual AI Smart Voice assistant </h3>
+                        <p>
+                          To interact with users through natural language voice commands. It's designed to perform various tasks, provide information, and assist users in a wide range of activities
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="business.jpeg">
+                    <div class="layer">
+                        <h3>Many Business Advertisements</h3>
+                        <p>
+                         Business Advertisement video edits, which mainly include cartoon animation and also some 3D animations.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn" href="#">See More</a>
+        </div>
+
+    </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yanala-shiva-reddy-a6930a293/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/yanala.shivareddy.3?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/shiva_reddy_05/profilecard/?igsh=c2gzbHQ3bmlpZXJs"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ShivaReddy1315"><i class="fa-brands fa-github"></i></a>
+                
+            <div class="contact-right">
+                <form action="/contact" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Shiva Reddy. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+            document.querySelector(`.tab-links[data-tab="${tabname}"]`).classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+
+    <!-- Updated HTML with icons, structure for animations -->
+    <section id="about" class="animated-section fadeIn">
+      <h2>About Me</h2>
+      <p>Interactive content about your experience and interests.</p>
+    </section>
+
+    <section id="projects" class="animated-section slideIn">
+      <h2>Projects</h2>
+      <div class="project-card" id="project1">
+        <h3>Project Title</h3>
+        <p>Brief description.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Follow me: <i class="fab fa-twitter"></i> <i class="fab fa-linkedin"></i></p>
+    </footer>
+    </body>
+    
+</html>
